@@ -1,0 +1,14 @@
+* {
+/* 
+   all color in the website is red 
+ */
+	color:red;
+}
+
+:not(.testR) {
+/* 
+   everythins that is not included in the class
+   testR is green.
+ */
+	color:green;
+}
