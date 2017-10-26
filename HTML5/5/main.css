@@ -1,0 +1,16 @@
+p:nth-child(odd) {
+	
+	color:red;
+}
+
+p:nth-child(even) {
+	
+	color:cyan;
+}
+
+/* for single one child
+p:nth-child(3) {
+	
+	color:red;
+}
+*/
