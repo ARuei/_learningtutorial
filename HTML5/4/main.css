@@ -1,0 +1,27 @@
+p.testR{
+	color:RED;
+}
+
+p[name="testB"]{
+	color:BLUE;
+}
+
+p[name^="TEST"]{
+	color:CYAN;
+}
+
+/*
+
+p[name^="TEST"]{
+	color:CYAN;
+}in front of string
+
+p[name$="TEST"]{
+	color:CYAN;
+}in end of string
+
+p[name*="TEST"]{
+	color:CYAN;
+}in any of string
+
+*/
