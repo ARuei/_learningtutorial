@@ -38,23 +38,27 @@ void BubbleSort(int *arr, int size, int (*cmp)(int, int)) {
 	}
 }
 
-void OriginalBubbleSort(int *arr, int size) {
+/*
 
-	int tmp;
+	void OriginalBubbleSort(int *arr, int size) {
 
-	for (int i=0; i<size; i++) {
+		int tmp;
 
-		for (int j=0; j<size-1; j++) {
+		for (int i=0; i<size; i++) {
 
-			if (arr[j]>arr[j+1]) {
+			for (int j=0; j<size-1; j++) {
 
-				tmp = arr[j];
-				arr[j] = arr[j+1];
-				arr[j+1]= tmp;
+				if (arr[j]>arr[j+1]) {
+
+					tmp = arr[j];
+					arr[j] = arr[j+1];
+					arr[j+1]= tmp;
+				}
 			}
 		}
 	}
-}
+
+ */
 
 void PRINT(int *arr, int size) {
 
