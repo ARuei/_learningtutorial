@@ -1,0 +1,24 @@
+div > p { color:blue; }
+p.ruei + p { color:red; }
+
+/*	div > p { color:blue; }
+ *
+ *	It's goint to affect any paragraph that has a div as
+ *	its parent.
+ */
+
+/*	p.ruei + p { color:red; }
+ *
+ *	Whenever we have a paragraph that follows another  
+ *	paragraph with a class ruei turn it red.
+ *
+ *	[Warning] when we use this plus selector, they must
+ *  have the same parent
+ */
+ 
+/*	p.ruei ~ p { color:red; }
+ * 
+ *	It's similar to plus selector, however, it doesn't
+ *	need to "immediately" follow it like it dit with
+ *	plus sign
+ */
