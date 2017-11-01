@@ -1,0 +1,40 @@
+*{
+	
+/*
+ * Some elements have their default margins and paddings, 
+ * and this pretty much resets everything back to zero
+ */ 
+	margin: 0px;
+	padding: 0px;
+}
+
+h1{
+
+/* 
+ * Setting the font weight, font size, and font family 
+ */	
+	font: bold 20px Tahoma;
+}
+
+h2{
+
+	font: bold 14px Tahoma;
+}
+
+header, section, footer, aside, nav, article, hgroup{
+
+/*
+ * What this does is pretty much makes all of these tags 
+ * block level elements
+ */ 
+	display: block;
+}
+
+body{
+
+/*
+ * In some older browser we need this text line property
+ * to ensure that our website is centered
+ */ 	
+	text-align: center;
+}
