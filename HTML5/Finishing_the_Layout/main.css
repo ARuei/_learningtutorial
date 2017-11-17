@@ -1,0 +1,168 @@
+*{
+	
+/*
+ * Some elements have their default margins and paddings, 
+ * and this pretty much resets everything back to zero
+ */ 
+	margin: 0px;
+	padding: 0px;
+}
+
+h1{
+
+/* 
+ * Setting the font weight, font size, and font family 
+ */	
+	font: bold 20px Tahoma;
+}
+
+h2{
+
+	font: bold 14px Tahoma;
+}
+
+header, section, footer, aside, nav, article, hgroup{
+
+/*
+ * What this does is pretty much makes all of these tags 
+ * block level elements
+ */ 
+	display: block;
+}
+
+body{
+
+/*
+ * In some older browser we need this text line property
+ * to ensure that our website is centered
+ */ 	
+	text-align: center;
+}
+
+#big_wrapper {
+	
+	border: 5px dashed black;
+	width: 1000px;
+	
+/*
+ * Even amount of space on the left hand side and right
+ * hand side 
+ */
+	margin: 20px auto; 
+	
+/*
+ * Even though the box itself is centered, however, the
+ * contents inside the box are going to be left aligned
+ */
+	text-align: left;
+}
+
+#top_header{
+	
+	background: red;
+	border: 3px solid green;
+
+/*
+ * The space between the text and the border or the
+ * element and the border is the padding.
+ *
+ * As for margin is the space outside the border.
+ */
+	padding: 20px;
+}
+
+#menu{
+	
+	background: black;
+	color: blue;
+}
+
+#menu li{
+
+/*
+ * Instead of the block level element  we use this to 
+ * make sure that they appear from left to right
+ */
+	display: inline-block;
+	list-style: none;
+	padding: 5px;
+	font:14px Tahoma;
+}
+
+#main_section{
+	
+	float: left;
+	width: 600px;
+	margin: 30px; /* 720px, 280px left*/
+}
+
+#side_news{
+
+/*
+ * If the margin property has four values:
+ *
+ *  margin: 25px 50px 75px 100px;
+ *   |- top margin is 25px
+ *   |- right margin is 50px
+ *   |- bottom margin is 75px
+ *   |- left margin is 100px
+ *
+ *
+ * If the margin property has three values:
+ *
+ *  margin: 25px 50px 75px;
+ *   |- top margin is 25px
+ *   |- right and left margins are 50px
+ *   |- bottom margin is 75px
+ *
+ *
+ * If the margin property has two values:
+ *
+ *  margin: 25px 50px;
+ *   |- top and bottom margins are 25px
+ *   |- right and left margins are 50px
+ *
+ *
+ * If the margin property has one value:
+ *
+ *  margin: 25px;
+ *   |- all four margins are 25px﻿
+ *
+ */
+	
+	width: 220px;
+	float: right;
+	margin: 20px 0px 30px 0px;
+	padding: 30px;
+	background: #66CCCC;
+}
+
+#the_footer{
+	
+	clear: both; /* For this footer, we don't want any
+					floating crap on the left or right.
+					
+					We kind of want it to be its own 
+					thing so that's just kind of going to 
+					reset it to the default layout.
+					
+					And make it a plain block level 
+					element.
+				  */
+	text-align: CENTER;
+	padding: 20px;
+	border-top: 2px solid orange;
+}
+
+article{
+	
+	background: #FFFBCC;
+	border: 1px solid red;
+	padding: 20px;
+	margin-bottom: 15px;
+}
+
+article footer {
+	
+	text-align: right;
+}
