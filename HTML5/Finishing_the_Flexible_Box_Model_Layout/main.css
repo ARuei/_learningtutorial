@@ -1,0 +1,98 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+h1{
+	font:bold 20px Tahoma;
+}
+
+h2{
+	font:bold 14px Tahoma;
+}
+
+header, section, footer, aside, nav, article, hgroup{
+
+/*  
+ *  By default, all of these things are going to be 
+ *  positioned one under each other
+ */
+	display:block; 
+}
+
+body{
+	width:100%;
+/*
+ *  The tools that google chrome is going to recognize
+ */
+	display:-webkit-box;
+/* 
+ *  How do we want the boxes inside this to be packed
+ *  together, take CENTER for example, which means center
+ *  aligned the boxes
+ */
+	-webkit-box-pack:center;
+}
+
+#big_wrapper{
+	
+	max-width:1000px;
+	margin:20px 0px;
+	display:-webkit-box;
+/* 
+ *  This term means that the children inside do you want
+ *  to place them left to right or one on top of each 
+ *  other
+ *  
+ *  Just try to image it like block elements or inline 
+ *  elements
+ */
+	-webkit-box-orient:vertical;
+/* 
+ *  This term is going to allow our website to be
+ *  flexible either shrink or grow in size horizontally
+ *  
+ *  
+ *  0 means fixed or not flexible at all
+ *  1 means flexible
+ */	
+	-webkit-box-flex:1;
+}
+#top_header{
+	background:green;
+	border:3px solid black;
+	padding:20px;
+}
+#menu{
+	border:red;
+	background:blue;
+	color:white;
+}
+#menu li{
+	display:inline-block; /* from left to right*/
+	list-style:none;
+	padding:5px;
+	font:bold 14px Tahoma;
+}
+#new_div{
+	display:-webkit-box;
+	-webkit-box-orient:horizontal; /* layout side by side */
+}
+#main_section{
+	border:1px solid blue;
+	-webkit-box-flex:1;
+	margin:20px;
+	padding:20px;
+}
+#side_news{
+	border:1px solid red;
+	width:220px;
+	margin:20px 0px;
+	padding:30px;
+	background:#66CCCC;
+}
+#the_footer{
+	text-align:center;
+	padding:20px;
+	border-top:2px solid green;
+}
