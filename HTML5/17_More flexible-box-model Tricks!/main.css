@@ -1,0 +1,44 @@
+#MOM{
+	border:2px solid blue;
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+	width:700px;
+	-webkit-box-pack:center;
+/*
+	-webkit-box-pack:end;
+	 |- declare which position this pack should take
+*/
+}
+#KID1{
+	border:2px solid red;
+	background:green;
+	padding:20px;
+	margin:10px;
+	width:60px;
+}
+#KID2{
+	border:2px solid red;
+	background:grey;
+	padding:20px;
+	margin:10px;
+/*
+	-webkit-box-ordinal-group: 1; 
+	 |- declare which position it should take
+*/
+	width:60px;
+	-webkit-box-flex:1; /* 0 means not flexible */
+}
+#KID3{
+	border:2px solid red;
+	background:blue;
+	padding:20px;
+	margin:10px;
+	width:60px;
+}
+#KID4{
+	border:2px solid red;
+	background:orange;
+	padding:20px;
+	margin:10px;
+	width:60px;
+}
