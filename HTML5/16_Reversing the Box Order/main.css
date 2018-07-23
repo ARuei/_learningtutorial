@@ -1,0 +1,30 @@
+#A{
+	border:2px solid blue;
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+	-webkit-box-direction:reverse; //reverse the box order
+}
+#s{
+	border:2px solid red;
+	background:green;
+	padding:20px;
+	margin:10px;
+}
+#n{
+	border:2px solid red;
+	background:grey;
+	padding:20px;
+	margin:10px;
+}
+#r{
+	border:2px solid red;
+	background:blue;
+	padding:20px;
+	margin:10px;
+}
+#t{
+	border:2px solid red;
+	background:orange;
+	padding:20px;
+	margin:10px;
+}
