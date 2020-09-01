@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+    int a;
+
+    while (cin>>a) {
+
+        cout << S-1 << endl;
+    }
+
+    return 0;
+}
